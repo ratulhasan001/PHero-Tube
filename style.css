@@ -1,0 +1,24 @@
+.headerfile {
+    /* margin-top: 15px; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    .headerfile {
+        display: inline;
+        text-align: center;
+        margin: auto;
+    }
+    .logo {
+        margin-top: 10px;
+    }
+    .first {
+        margin-top: 10px;
+    }
+    .second {
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+}
