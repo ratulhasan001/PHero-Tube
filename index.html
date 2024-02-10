@@ -18,42 +18,52 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 m-3">
-        <div class="container-fluid bg-white justify-content-evenly">
-          <div class="logo">
-            <img src="./img/Logo.png" alt="" id="logo">
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
-            <button class="nav-item btn btn-outline-success sort_by_view_btn" type="submit">
-              Sort By View
-            </button>
-              <button class="nav-item btn btn-outline-success blog_btn" type="submit">
-                Blog
-              </button>
-          </div>
+      <div class="headerfile">
+        <div class="logo">
+          <img src="./img/Logo.png" alt="" id="logo" />
         </div>
-      </nav>
+        <div class="first">
+          <button
+            id="sortbyview"
+            class="btn btn-outline-danger sort_by_view_btn"
+            type="submit"
+          >
+            Sort By View
+          </button>
+        </div>
+        <div class="second">
+          <button
+            id="blog"
+            class="btn btn-outline-danger blog_btn"
+            type="submit"
+            
+          >
+            Blog
+          </button>
+        </div>
+      </div>
     </header>
-    <hr>
 
-    <div class="allbtn d-flex justify-content-center gap-3" role="group" aria-label="Basic example">
-      <button onclick="loadAllData()" id = "all_btn" type="button" class="btn btn-danger">All</button>
-      <button id = "music_btn" type="button" class="btn btn-danger">Music</button>
-      <button id = "comedy_btn" type="button" class="btn btn-danger">Comedy</button>
-      <button id = "drawing_btn" type="button" class="btn btn-danger">Drawing</button>
+    <hr />
+
+    <div
+      class="allbtn d-flex justify-content-center gap-3"
+      role="group"
+      aria-label="Basic example"
+    >
+      <button id="all_btn" type="button" class="btn btn-outline-danger">
+        All
+      </button>
+      <button id="music_btn" type="button" class="btn btn-outline-danger">
+        Music
+      </button>
+      <button id="comedy_btn" type="button" class="btn btn-outline-danger">
+        Comedy
+      </button>
+      <button id="drawing_btn" type="button" class="btn btn-outline-danger">
+        Drawing
+      </button>
     </div>
-
     <!-- script section -->
     <script src="/script.js"></script>
 
