@@ -12,7 +12,7 @@ const displayData = (data) => {
         card.classList.add("box");
         card.innerHTML = `
         <div class = "imgdiv">
-        <img style = "width:350px ;height : 200px;" class "imgbox" src="${dt.thumbnail}" alt="s">
+        <img style = "border-radius: 10px; width:350px ;height : 200px;" class "imgbox" src="${dt.thumbnail}" alt="s">
         <br>
         <img class = "author" src = "${dt.authors[0].profile_picture}" alt = "" >
         </div>
