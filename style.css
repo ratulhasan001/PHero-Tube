@@ -1,46 +1,53 @@
- *{
-    margin: 0;
-    padding: 0;
- }
+* {
+  margin: 0;
+  padding: 0;
+}
 .headerfile {
-    /* margin-top: 15px; */
-    display: flex;
-    justify-content: space-evenly;
-    margin: 15px;
+  /* margin-top: 15px; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
 }
 .box {
-   padding : 10px;
-   margin-top: 10px;
+  padding: 10px;
+  margin-top: 10px;
 }
 #printdata {
-    margin-right: 30px;
-    margin-left: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .author {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
 }
 
+#insideinfo {
+  margin: 10px;
+}
+.p-info {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 @media only screen and (max-width: 480px) {
-    .headerfile {
-        display: inline;
-        text-align: center;
-        margin: auto;
-    }
-    .logo {
-        margin-top: 10px;
-    }
-    .first {
-        margin-top: 10px;
-    }
-    .second {
-        margin-top: 10px;
-        margin-left: 8px;
-    }
+  .headerfile {
+    display: inline;
+    text-align: center;
+    margin: auto;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+  .first {
+    margin-top: 10px;
+  }
+  .second {
+    margin-top: 10px;
+    margin-left: 8px;
+  }
 }
