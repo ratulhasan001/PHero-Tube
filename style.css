@@ -34,6 +34,14 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+#time {
+  margin-bottom: 0;
+}
+.noContentimg {
+  margin-top: 70px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 480px) {
   .headerfile {
     display: inline;
