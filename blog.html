@@ -23,7 +23,7 @@
   <body>
     <header>
       <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
-        <button type="button" class="btn btn-outline-secondary btn-lg">
+        <button type="button" class="btn btn-outline-secondary btn-lg"onclick="window.location.href = 'blog.html'">
           Blog
         </button>
       </div>
@@ -52,14 +52,11 @@
         >
           <div class="accordion-body">
             <p>
-              <h3>Var :</h3> Var declared in the Global scope and can be from access
-              anywhere from the app. Also value can be changed.
+              <h3>Var :</h3> Variables declared by var keyword can be redeclared and reinitialized and can be changed. Var can be accessed from anywhere.
               <br> <br>
-              <h3>Let :</h3> Let is blocked scope that means it can't be access from
-              outer scope but you can still re-assign the value.
+              <h3>Let :</h3> Let is blocked scope. It can't be accessed outside that scope. But value can be reinitialized though that variable can't be redeclared.
               <br> <br>
-              <h3>Const :</h3> This is the most used variable. Because it solves the both
-              global scope problem and re-assign issue.
+              <h3>Const :</h3> The value assigned in const variables can't be reassigned or that variable can't be redeclared.
             </p>
           </div>
         </div>
@@ -86,13 +83,8 @@
         >
           <div class="accordion-body">
             <p>
-              <h3>Null :</h3> Null represents the intentional absence of a value and Null
-              is used as a placeholder value for missing data. Also Null is
-              often used in database queries to represent NULL values. <br> <br><h3>Undefined
-                :</h3> Undefined is the default value for uninitialized variables and
-              Undefined is returned when trying to access a non-existent
-              property of an object. Also Undefined indicates that a value is
-              not yet known or available.
+              <h3>Null :</h3> Null keyword shows the absence of value which is used to keep something as empty or nothing. It is also used in sql queries of database to use it as null values. <br> <br><h3>Undefined
+                :</h3> Undefined is used as the default value for any uninitialized variables or unknown variables. If a property or anything is not declared yet or non-existed, javascript returns it as undefined. If a function doesn't return anything then it returns undefined.
             </p>
           </div>
         </div>
