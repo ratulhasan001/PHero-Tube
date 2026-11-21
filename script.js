@@ -66,7 +66,7 @@ const displayData = (data) => {
     card.innerHTML = `
     <div class="noContentimg">
       <div id = "contentimg">
-      <img src="./img/Icon.png" alt="">
+      <img src="./img/no-content-icon.png" alt="">
       </div>
       <h1 style = "margin-top: 20px;font-weight: bold">Oops!! Sorry,</h1>
       <h1 style = "font-weight : bold">There is no content here</h1>
